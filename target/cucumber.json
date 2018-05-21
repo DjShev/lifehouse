@@ -1,0 +1,64 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "create new customer",
+        "description": "",
+        "id": "create-customer;create-new-customer",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11171411591,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "open main page",
+            "match": {
+              "location": "CreateCustomerSteps.openMainPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1383897690,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enter email and press join now button",
+            "match": {
+              "location": "CreateCustomerSteps.enterEmailAndPressJoinNowButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2846744916,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify that user redirected to main page",
+            "match": {
+              "location": "CreateCustomerSteps.verifyThatUserRedirectedToMainPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@smoketest"
+          }
+        ]
+      }
+    ],
+    "name": "Create customer",
+    "description": "",
+    "id": "create-customer",
+    "keyword": "Feature",
+    "uri": "smoketest.feature"
+  }
+]

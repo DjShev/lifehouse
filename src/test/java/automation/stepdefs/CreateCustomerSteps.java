@@ -11,16 +11,16 @@ public class CreateCustomerSteps {
 
 
     @Given("^open main page$")
-    public void openMainPage() {
+    public void openMainPage() {  //change to login page )
         LoginPage.openPage();
-        LoginPage.enterEmail();
+        LoginPage.enterEmail();  //delete this line (it duplaceted )
     }
 
 
-    @And("^enter email and press join now button$")
+    @And("^enter email and press join now button$") // change to @When
     public void enterEmailAndPressJoinNowButton() {
         LoginPage.enterEmail();
-        LoginPage.enterPassword();
+        LoginPage.enterPassword();     /// where is method press button ? :))
     }
 
     @Then("^verify that user redirected to main page$")

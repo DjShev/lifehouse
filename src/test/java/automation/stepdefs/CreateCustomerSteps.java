@@ -19,12 +19,13 @@ public class CreateCustomerSteps {
 
     @And("^enter email and press join now button$") // change to @When
     public void enterEmailAndPressJoinNowButton() {
-        LoginPage.enterEmail();
-        LoginPage.enterPassword();     /// where is method press button ? :))
-    }
+        LoginPage.enterEmail();      
+        LoginPage.enterPassword();     /// where is method press button ? :)) 
+        
+    } // need add step with enter password or change step name 
 
     @Then("^verify that user redirected to main page$")
     public void verifyThatUserRedirectedToMainPage() {
-        MainPage.checkHeader();         //specify what is main page
+        MainPage.checkHeader();         
     }
 }

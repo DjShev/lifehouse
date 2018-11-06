@@ -11,8 +11,8 @@ public class CreateCustomerSteps {
 
 
     @Given("^open main page$")
-    public void openMainPage() {  //change to login page )
-        LoginPage.openPage();
+    public void openMainPage() {  //change to login page or start page)
+        LoginPage.openPage();    //change to login page or start page , add some verification 
         LoginPage.enterEmail();  //delete this line (it duplaceted )
     }
 

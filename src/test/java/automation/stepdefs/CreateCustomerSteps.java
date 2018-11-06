@@ -25,6 +25,6 @@ public class CreateCustomerSteps {
 
     @Then("^verify that user redirected to main page$")
     public void verifyThatUserRedirectedToMainPage() {
-        MainPage.checkHeader();
+        MainPage.checkHeader();         //specify what is main page
     }
 }

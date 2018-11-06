@@ -1,4 +1,4 @@
 package automation.page;
-
-public class Page {
+                    
+public class Page {   //delete empty page
 }

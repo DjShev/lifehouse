@@ -18,7 +18,7 @@ public class SmokeTest {
 
     @BeforeClass
     static public void setupTimeout() {
-        Configuration.timeout = 10000;
+        Configuration.timeout = 10000;   // move this parameter to config file
         System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver");  //take this parameters from environment.properties
         Configuration.browser = "chrome";   //take this parameters from environment.properties
     }
